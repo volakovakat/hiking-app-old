@@ -5,28 +5,27 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import data from '../Trips/trips.json';
 
 
-export default function TripCard() {
+export default function TripCard({trip}) {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         sx={{ height: 140 }}
-        image={data.tenerife.trip1.image}
+        image={trip.image}
         title="map"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          {data.tenerife.trip1.header}
+          {trip.header}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        Časová náročnost: {data.tenerife.trip1.timeRange}
+        Časová náročnost: {trip.timeRange}
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small" href={data.tenerife.trip1.info}>Info</Button>  
-        <Button size="small" href={data.tenerife.trip1.url}>Trasa</Button>
+        <Button size="small" href={trip.info}>Info</Button>
+        <Button size="small" href={trip.url}>Trasa</Button>
       </CardActions>
     </Card>
   );
