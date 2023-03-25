@@ -1,0 +1,44 @@
+{
+  "tenerife":
+    {
+      "trip1":
+      {
+        "id": "0",
+        "value": "Los Gigantes",
+        "image": "/static/images/tenerife/barranca-masca.jpeg",
+        "header": "Túra soutěskou Barranca Masca",
+        "timeRange": "4h",
+        "info": "https://www.gigaplaces.com/clanek-tura-souteskou-barranca-masca/",
+        "url": "https://www.mapy.cz" 
+      },
+      "trip2":
+      {
+        "id": "1",
+        "value": "Los Gigantes",
+        "header": "Los Gigantes - Las Teresitas",
+        "timeRange": "2h",
+        "info": "https://www.gigaplaces.com/clanek-tura-souteskou-barranca-masca/",
+        "url": "https://www.mapy.cz"
+      }
+    },
+    "rakousko":
+    {
+      "trip1":
+      {
+        "id": "0",
+        "value": "Saalbach",
+        "header": "Výšlap k lanovce",
+        "timeRange": "8h",
+        "url": "https://www.mapy.cz"
+      },
+      "trip2":
+      {
+        "id": "1",
+        "value": "Saalbach",
+        "header": "Výšlap k jezeru",
+        "timeRange": "5,5h",
+        "url": "https://www.mapy.cz"
+      }
+    }
+
+}
