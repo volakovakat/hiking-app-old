@@ -16,6 +16,7 @@
 .App {
   flex-direction: column;
   padding-bottom: 5rem;
+  margin: 0 2rem;
 }
 
 nav {

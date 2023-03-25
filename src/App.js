@@ -45,20 +45,11 @@ const App = () => {
         </header>
 
         <main>
-          <Card trip={{
-            "id": "0",
-            "value": "Los Gigantes",
-            "image": "/images/tenerife/barranca-masca.jpeg",
-            "header": "Túra soutěskou Barranca Masca",
-            "timeRange": "4h",
-            "info": "https://www.gigaplaces.com/clanek-tura-souteskou-barranca-masca/",
-            "url": "https://www.mapy.cz"
-          }} />
-          {/*<Card />*/}
-          {/*<Card />*/}
-          {/*<Card />*/}
-          {/*<Card />*/}
-          {/*<Card />*/}
+          {dataStatus === 'succeeded' && data.map(d => d.trips.map(t => <Card
+              key={d.name + t.id}
+              trip={t}/>
+            ))}
+
         </main>
       </div>
     </ThemeProvider>

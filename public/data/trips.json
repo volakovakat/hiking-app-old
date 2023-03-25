@@ -4,7 +4,7 @@
     {
       "id": "0",
       "location": "Los Gigantes",
-      "image": "/static/images/tenerife/barranca-masca.jpeg",
+      "image": "/images/tenerife/barranca-masca.jpeg",
       "header": "Túra soutěskou Barranca Masca",
       "timeRange": "4h",
       "info": "https://www.gigaplaces.com/clanek-tura-souteskou-barranca-masca/",
@@ -13,6 +13,7 @@
     {
       "id": "1",
       "location": "Los Gigantes",
+      "image": "/images/tenerife/barranca-masca.jpeg",
       "header": "Los Gigantes - Las Teresitas",
       "timeRange": "2h",
       "info": "https://www.gigaplaces.com/clanek-tura-souteskou-barranca-masca/",
@@ -26,6 +27,7 @@
         {
           "id": "0",
           "location": "Saalbach",
+          "image": "/images/tenerife/barranca-masca.jpeg",
           "header": "Výšlap k lanovce",
           "timeRange": "8h",
           "url": "https://www.mapy.cz"
@@ -33,6 +35,7 @@
         {
           "id": "1",
           "location": "Saalbach",
+          "image": "/images/tenerife/barranca-masca.jpeg",
           "header": "Výšlap k jezeru",
           "timeRange": "5,5h",
           "url": "https://www.mapy.cz"
