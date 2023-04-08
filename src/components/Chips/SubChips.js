@@ -1,18 +1,17 @@
 import * as React from 'react';
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
-import {categoryFilter, locationFilter} from "../../reducers/dataSlice";
 import {useDispatch, useSelector} from "react-redux";
+import {locationFilter} from "../../reducers/dataSlice";
 
 
-export default function Chips({labels}) {
+export default function SubChips({labels}) {
   const dispatch = useDispatch();
-  const filter = useSelector(state => state.data.trips.filter);
+  const filter = useSelector(state => state.data.trips.location);
 
   const handleClick = (e) => {
     console.log('clicked', e);
-    dispatch(categoryFilter(e));
-    dispatch(locationFilter(null));
+    dispatch(locationFilter(e));
   };
 
   return (
@@ -20,8 +19,8 @@ export default function Chips({labels}) {
         {labels.map(l => <Chip
             key={l}
             variant= {l === filter ? "" : "outlined"}
-            color="success"
             label={`${l}`}
+            size="small"
             onClick={() => handleClick(l)}
         />)}
 

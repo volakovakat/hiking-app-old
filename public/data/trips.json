@@ -7,6 +7,8 @@
       "image": "/images/tenerife/barranca-masca.jpeg",
       "header": "Túra soutěskou Barranca Masca",
       "timeRange": "4h",
+      "ascent": "800m",
+      "descent": "500m",
       "info": "https://www.gigaplaces.com/clanek-tura-souteskou-barranca-masca/",
       "url": "https://www.mapy.cz"
     },
@@ -16,6 +18,19 @@
       "image": "/images/tenerife/barranca-masca.jpeg",
       "header": "Los Gigantes - Las Teresitas",
       "timeRange": "2h",
+      "ascent": "800m",
+      "descent": "500m",
+      "info": "https://www.gigaplaces.com/clanek-tura-souteskou-barranca-masca/",
+      "url": "https://www.mapy.cz"
+    },
+    {
+      "id": "2",
+      "location": "Santa Cruz",
+      "image": "/images/tenerife/barranca-masca.jpeg",
+      "header": "Santa Cruz test",
+      "timeRange": "2h",
+      "ascent": "800m",
+      "descent": "500m",
       "info": "https://www.gigaplaces.com/clanek-tura-souteskou-barranca-masca/",
       "url": "https://www.mapy.cz"
     }
@@ -30,6 +45,8 @@
           "image": "/images/tenerife/barranca-masca.jpeg",
           "header": "Výšlap k lanovce",
           "timeRange": "8h",
+          "ascent": "800m",
+          "descent": "500m",
           "url": "https://www.mapy.cz"
         },
         {
@@ -38,6 +55,8 @@
           "image": "/images/tenerife/barranca-masca.jpeg",
           "header": "Výšlap k jezeru",
           "timeRange": "5,5h",
+          "ascent": "800m",
+          "descent": "500m",
           "url": "https://www.mapy.cz"
         }
       ]

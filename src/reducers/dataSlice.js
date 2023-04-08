@@ -5,7 +5,9 @@ const initialState = {
     trips: {
         data: {},
         error: null,
-        status: 'idle'
+        status: 'idle',
+        filter: null,
+        location: null
     }
 }
 
@@ -18,7 +20,14 @@ export const fetchData = createAsyncThunk('data/fetchData',
 const dataSlice = createSlice({
     name: 'data',
     initialState,
-    reducers: {},
+    reducers: {
+        categoryFilter: (state, action) => {
+            state.trips.filter = action.payload;
+        },
+        locationFilter: (state, action) => {
+            state.trips.location = action.payload;
+        }
+    },
     extraReducers(builder) {
         builder
             .addCase(fetchData.pending, (state, action) => {
@@ -35,4 +44,5 @@ const dataSlice = createSlice({
     }
 })
 
-export default dataSlice.reducer
+export const {categoryFilter, locationFilter} = dataSlice.actions;
+export default dataSlice.reducer;

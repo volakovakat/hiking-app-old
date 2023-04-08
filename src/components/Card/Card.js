@@ -5,23 +5,30 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import Chip from "@mui/material/Chip";
+import HikingDuration from "./HikingDuration";
 
 
-export default function TripCard({trip}) {
+const TripCard = ({trip}) => {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{
+        width: 345,
+        height: 311}}
+    >
       <CardMedia
         sx={{ height: 140 }}
         image={trip.image}
         title="map"
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography sx={{ fontSize: 18 }} gutterBottom variant="h5" component="div">
           {trip.header}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
-        Časová náročnost: {trip.timeRange}
-        </Typography>
+        <Chip label={`${trip.location}`} variant="outlined" color="primary" size="small" />
+        {/*<Typography variant="body2" color="text.secondary" component="div">*/}
+        <HikingDuration timeRange={trip.timeRange} ascent={trip.ascent} descent={trip.descent}/>
+
+        {/*</Typography>*/}
       </CardContent>
       <CardActions>
         <Button size="small" href={trip.info}>Info</Button>
@@ -30,3 +37,4 @@ export default function TripCard({trip}) {
     </Card>
   );
 }
+export default TripCard;

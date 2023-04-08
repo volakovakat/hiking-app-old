@@ -1,0 +1,6 @@
+.c-icon-text {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    gap: 10px;
+}

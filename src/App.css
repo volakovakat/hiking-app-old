@@ -21,6 +21,8 @@
 
 nav {
   margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .c-app-header {
