@@ -4,7 +4,7 @@
     {
       "id": "0",
       "location": "Los Gigantes",
-      "image": "/images/tenerife/chinyero-volcano.png",
+      "image": "images/tenerife/chinyero-volcano.png",
       "header": "Výstup na vulkán Chinyero",
       "hikeTimeRange": "4:15",
       "carTimeRange": "TBA",
@@ -18,7 +18,7 @@
     {
       "id": "1",
       "location": "Los Gigantes",
-      "image": "/images/tenerife/montanas-negras.jpeg",
+      "image": "images/tenerife/montanas-negras.jpeg",
       "header": "Okruh černými horami",
       "hikeTimeRange": "4:00",
       "carTimeRange": "TBA",
@@ -31,7 +31,7 @@
     {
       "id": "2",
       "location": "Los Gigantes",
-      "image": "/images/tenerife/roques-de-garcia.jpeg",
+      "image": "images/tenerife/roques-de-garcia.jpeg",
       "header": "Skalní útvary Roques del García",
       "hikeTimeRange": "1:30",
       "carTimeRange": "TBA",
@@ -44,7 +44,7 @@
     {
       "id": "3",
       "location": "Sever ostrova",
-      "image": "/images/tenerife/roque-de-taborno.jpg",
+      "image": "images/tenerife/roque-de-taborno.jpg",
       "header": "Okruh Roque de Taborno",
       "hikeTimeRange": "1:30",
       "carTimeRange": "0:26",
@@ -57,7 +57,7 @@
     {
       "id": "4",
       "location": "Los Gigantes",
-      "image": "/images/tenerife/pico-del-teide.jpg",
+      "image": "images/tenerife/pico-del-teide.jpg",
       "header": "Pod vrchol Pico del Teide",
       "hikeTimeRange": "7:37",
       "carTimeRange": "1:00",
@@ -70,7 +70,7 @@
     {
       "id": "5",
       "location": "Sever ostrova",
-      "image": "/images/tenerife/sendero-de-los-sentidos.jpg",
+      "image": "images/tenerife/sendero-de-los-sentidos.jpg",
       "header": "Okruh Sendero de los Sentidos",
       "hikeTimeRange": "0:37",
       "carTimeRange": "0:26",
@@ -88,7 +88,7 @@
         {
           "id": "0",
           "location": "Beskydy",
-          "image": "/images/tenerife/barranca-masca.jpeg",
+          "image": "images/tenerife/barranca-masca.jpeg",
           "header": "Výšlap k lanovce",
           "hikeTimeRange": "8h",
           "ascent": "800m",
@@ -98,7 +98,7 @@
         {
           "id": "1",
           "location": "Beskydy",
-          "image": "/images/tenerife/barranca-masca.jpeg",
+          "image": "images/tenerife/barranca-masca.jpeg",
           "header": "Výšlap k jezeru",
           "hikeTimeRange": "5,5h",
           "ascent": "800m",
