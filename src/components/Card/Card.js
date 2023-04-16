@@ -9,7 +9,7 @@ import Chip from "@mui/material/Chip";
 import HikingDuration from "./HikingDuration";
 
 
-const TripCard = ({trip}) => {
+const TripCard = ({trip: {ascent, descent, header, image, info, location, hikeTimeRange, carTimeRange, url, parking}}) => {
   return (
     <Card sx={{
         width: 345,
@@ -17,22 +17,23 @@ const TripCard = ({trip}) => {
     >
       <CardMedia
         sx={{ height: 140 }}
-        image={trip.image}
+        image={image}
         title="map"
       />
       <CardContent>
         <Typography sx={{ fontSize: 18 }} gutterBottom variant="h5" component="div">
-          {trip.header}
+          {header}
         </Typography>
-        <Chip label={`${trip.location}`} variant="outlined" color="primary" size="small" />
+        <Chip label={`${location}`} variant="outlined" color="primary" size="small" />
         {/*<Typography variant="body2" color="text.secondary" component="div">*/}
-        <HikingDuration timeRange={trip.timeRange} ascent={trip.ascent} descent={trip.descent}/>
+        <HikingDuration hikeTimeRange={hikeTimeRange} carTimeRange={carTimeRange} ascent={ascent}/>
 
         {/*</Typography>*/}
       </CardContent>
       <CardActions>
-        <Button size="small" href={trip.info}>Info</Button>
-        <Button size="small" href={trip.url}>Trasa</Button>
+        <Button size="small" href={info} target="_blank">Info</Button>
+        <Button size="small" href={url} target="_blank">Trasa</Button>
+        <Button size="small" href={parking} target="_blank">Parking</Button>
       </CardActions>
     </Card>
   );

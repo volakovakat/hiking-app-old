@@ -1,0 +1,110 @@
+[{
+  "name": "Tenerife",
+  "trips": [
+    {
+      "id": "0",
+      "location": "Los Gigantes",
+      "image": "/images/tenerife/chinyero-volcano.png",
+      "header": "Výstup na vulkán Chinyero",
+      "hikeTimeRange": "4:15",
+      "carTimeRange": "TBA",
+      "hikeLength": "13,4km",
+      "ascent": "382m",
+      "descent": "382m",
+      "info": "https://docs.google.com/document/d/1uCXWVlWXiCgo3Mk-BgJScw72nxUH8rRmNU8t0PLoCSY/edit?usp=sharing",
+      "url": "https://mapy.cz/s/forolumelu",
+      "parking": "https://goo.gl/maps/mcKcGtJB2qDrRfyJ7"
+    },
+    {
+      "id": "1",
+      "location": "Los Gigantes",
+      "image": "/images/tenerife/montanas-negras.jpeg",
+      "header": "Okruh černými horami",
+      "hikeTimeRange": "4:00",
+      "carTimeRange": "TBA",
+      "hikeLength": "12,1km",
+      "ascent": "399m",
+      "info": "https://docs.google.com/document/d/1_ZNv0onx-6giUb0NKzBE5ssI8hwp_hsZd1jVj4EPUrk/edit?usp=sharing",
+      "url": "https://mapy.cz/s/bobugesuse",
+      "parking": "https://goo.gl/maps/HN64qNHWgQB16esSA"
+    },
+    {
+      "id": "2",
+      "location": "Los Gigantes",
+      "image": "/images/tenerife/roques-de-garcia.jpeg",
+      "header": "Skalní útvary Roques del García",
+      "hikeTimeRange": "1:30",
+      "carTimeRange": "TBA",
+      "hikeLength": "3,3km",
+      "ascent": "129m",
+      "info": "https://docs.google.com/document/d/1gKytAliSgkA2me-cJZ2JBVWBgRqVI8UldawEbhCvD3k/edit?usp=sharing",
+      "url": "https://mapy.cz/s/fugaluvuju",
+      "parking": "https://goo.gl/maps/6YZDtVBEJkGg93Pn8"
+    },
+    {
+      "id": "3",
+      "location": "Sever ostrova",
+      "image": "/images/tenerife/roque-de-taborno.jpg",
+      "header": "Okruh Roque de Taborno",
+      "hikeTimeRange": "1:30",
+      "carTimeRange": "0:26",
+      "hikeLength": "4km",
+      "ascent": "129m",
+      "info": "https://docs.google.com/document/d/1zWbLPCbXlEPFPuMM0qwlspAyY3_IF5qfQNvElfE2vGo/edit?usp=sharing",
+      "url": "https://mapy.cz/s/pokecaloma",
+      "parking": "https://goo.gl/maps/eLh9em1wRxkD9X1XA"
+    },
+    {
+      "id": "4",
+      "location": "Los Gigantes",
+      "image": "/images/tenerife/pico-del-teide.jpg",
+      "header": "Pod vrchol Pico del Teide",
+      "hikeTimeRange": "7:37",
+      "carTimeRange": "1:00",
+      "hikeLength": "18,8km",
+      "ascent": "1387m",
+      "info": "",
+      "url": "https://mapy.cz/s/bevapulese",
+      "parking": "https://goo.gl/maps/KzJvDtRx7R23RmBw9"
+    },
+    {
+      "id": "5",
+      "location": "Sever ostrova",
+      "image": "/images/tenerife/sendero-de-los-sentidos.jpg",
+      "header": "Okruh Sendero de los Sentidos",
+      "hikeTimeRange": "0:37",
+      "carTimeRange": "0:26",
+      "hikeLength": "1,3km",
+      "ascent": "136m",
+      "info": "https://docs.google.com/document/d/1z9SCzR8BZneENbIWik1iYhO1P8Np0FUiDg9lB5Sc-R0/edit?usp=sharing",
+      "url": "https://mapy.cz/s/dotomucebu",
+      "parking": "https://goo.gl/maps/VXL1zSm1ZSubaCQT6"
+    }
+  ]
+  },
+  {
+   "name": "Beskydy",
+   "trips": [
+        {
+          "id": "0",
+          "location": "Beskydy",
+          "image": "/images/tenerife/barranca-masca.jpeg",
+          "header": "Výšlap k lanovce",
+          "hikeTimeRange": "8h",
+          "ascent": "800m",
+          "descent": "500m",
+          "url": "https://www.mapy.cz"
+        },
+        {
+          "id": "1",
+          "location": "Beskydy",
+          "image": "/images/tenerife/barranca-masca.jpeg",
+          "header": "Výšlap k jezeru",
+          "hikeTimeRange": "5,5h",
+          "ascent": "800m",
+          "descent": "500m",
+          "url": "https://www.mapy.cz"
+        }
+      ]
+  }
+]
