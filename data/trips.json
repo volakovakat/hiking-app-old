@@ -1,5 +1,11 @@
 [{
   "name": "Tenerife",
+  "maps": {
+    "Sever ostrova": "https://mapy.cz/s/cusobomoco",
+    "Los Gigantes": "https://mapy.cz/s/pumuvumome",
+    "Santa Cruz": "https://mapy.cz/s/momozojofa"
+  },
+  "places": "https://goo.gl/maps/bQp4nh7SffCdoPdp9",
   "trips": [
     {
       "id": "0",
@@ -79,6 +85,84 @@
       "info": "https://docs.google.com/document/d/1z9SCzR8BZneENbIWik1iYhO1P8Np0FUiDg9lB5Sc-R0/edit?usp=sharing",
       "url": "https://mapy.cz/s/dotomucebu",
       "parking": "https://goo.gl/maps/VXL1zSm1ZSubaCQT6"
+    },
+    {
+      "id": "6",
+      "location": "Sever ostrova",
+      "image": "images/tenerife/anaga.jpeg",
+      "header": "Okruh pohořím Anaga",
+      "hikeTimeRange": "7:00",
+      "carTimeRange": "1:00",
+      "hikeLength": "14.2km",
+      "ascent": "1432m",
+      "info": "https://docs.google.com/document/d/1x7TEtcfA_bHK0fyEcGlYaUAL8pqfJY7JLzITZ8ekusk/edit?usp=sharing",
+      "url": "https://mapy.cz/s/falomokeme",
+      "parking": "https://goo.gl/maps/s6ZUFQC3nm4w9gae6"
+    },
+    {
+      "id": "7",
+      "location": "Sever ostrova",
+      "image": "images/tenerife/anaga.jpeg",
+      "header": "Okruh pohořím Anaga - kratší",
+      "hikeTimeRange": "3:45",
+      "carTimeRange": "1:00",
+      "hikeLength": "7km",
+      "ascent": "847m",
+      "info": "https://docs.google.com/document/d/1x7TEtcfA_bHK0fyEcGlYaUAL8pqfJY7JLzITZ8ekusk/edit?usp=sharing",
+      "url": "https://mapy.cz/s/jubahojuho",
+      "parking": "https://goo.gl/maps/s6ZUFQC3nm4w9gae6"
+    },
+    {
+      "id": "8",
+      "location": "Los Gigantes",
+      "image": "images/tenerife/paisaje-lunar.jpeg",
+      "header": "Okruh měsíční krajinou Paisaje Lunar",
+      "hikeTimeRange": "2:55",
+      "carTimeRange": "1:09",
+      "hikeLength": "8,2km",
+      "ascent": "298m",
+      "info": "https://docs.google.com/document/d/15of5GweF1JGXVXKIIox1_8kLi6eO5hOCh58TfvxWhpo/edit?usp=sharing",
+      "url": "https://mapy.cz/s/pavodudamu",
+      "parking": "https://goo.gl/maps/EbLCcbnuF4iq6mBz9"
+    },
+    {
+      "id": "9",
+      "location": "Los Gigantes",
+      "image": "images/tenerife/montana-negra.jpg",
+      "header": "Okruh kolem sopky Montaña Negra",
+      "hikeTimeRange": "1:32",
+      "carTimeRange": "0:43",
+      "hikeLength": "4,5km",
+      "ascent": "142m",
+      "info": "https://docs.google.com/document/d/1LSPn-SLbDtcGnDNeYCHI5fGW5FGg_x4gvGjuBSRrjx8/edit?usp=sharing",
+      "url": "https://mapy.cz/s/fohopazatu",
+      "parking": "https://goo.gl/maps/EsQzcLs5hPN5EgT98"
+    },
+    {
+      "id": "10",
+      "location": "Los Gigantes",
+      "image": "images/tenerife/garachico.jpeg",
+      "header": "Městečko Garachico",
+      "hikeTimeRange": "0:26",
+      "carTimeRange": "0:56",
+      "hikeLength": "1,2km",
+      "ascent": "42m",
+      "info": "https://docs.google.com/document/d/1DO-u6Z5fH0RCKTenCPyE8xRdyhGhdHbSoTC0UTNn4qg/edit?usp=sharing",
+      "url": "https://mapy.cz/s/gugulalaga",
+      "parking": "https://goo.gl/maps/gL2YBhG3EHThp8zK8"
+    },
+    {
+      "id": "10",
+      "location": "Sever ostrova",
+      "image": "images/tenerife/rybi-stezka.jpeg",
+      "header": "Rybí stezka Puerto de la Cruz",
+      "hikeTimeRange": "0:21",
+      "carTimeRange": "0:20",
+      "hikeLength": "1,2km",
+      "ascent": "11m",
+      "info": "https://docs.google.com/document/d/1PZTCfNN9BGGcget9oe5BfCk3Z-KTuj7jaJ0AriR-pck/edit?usp=sharing",
+      "url": "https://mapy.cz/s/forudatoku",
+      "parking": "https://goo.gl/maps/Xwctiq76A1su7ber9"
     }
   ]
   },
