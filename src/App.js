@@ -4,6 +4,7 @@ import './App.css';
 import Card from './components/Card/Card';
 import Chips from './components/Chips/Chips';
 import SubChips from "./components/Chips/SubChips";
+import Button from '@mui/material/Button';
 import {useEffect} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {fetchData} from "./reducers/dataSlice";
@@ -27,6 +28,40 @@ const App = () => {
   const dataError = useSelector(state => state.data.trips.error)
   const filter = useSelector(state => state.data.trips.filter)
   const location = useSelector(state => state.data.trips.location)
+
+  const getAllTrips = () => {
+    let index;
+    if (!filter) return [];
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].name === filter) {
+        index = i;
+        break
+      }
+    }
+    let loc = getLocations();
+    if (!loc) return [];
+    if (location && data[index].maps) {
+      return [data[index].maps[location]]
+    } else if (data[index].maps) {
+      return Object.values(data[index].maps)
+    }
+    return [];
+  }
+
+  const getAllPlaces = () => {
+    let index;
+    if (!filter) return null;
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].name === filter) {
+        index = i;
+        break
+      }
+    }
+    if (data[index].places) {
+      return data[index].places
+    }
+    return null;
+  }
 
   const getLabels = () => {
     if (dataStatus === 'succeeded') {
@@ -75,13 +110,22 @@ const App = () => {
             <Chips labels={getLabels()} />
             <SubChips labels={getLocations()} />
           </nav>
+          <section class="show-all">
+            <div className="all-trips">
+              <Button size="small" color="secondary" variant="text" href={getAllTrips()} target="_blank">
+                Všechny trasy
+              </Button>
+            </div>
+            <div className="all-places">
+              <Button size="small" color="secondary" variant="text" href={getAllPlaces()} target="_blank">
+                Všechna místa
+              </Button>
+            </div>
+          </section>
         </header>
 
         <main>
-          {dataStatus === 'succeeded' && getTrips().map(t => <Card
-              trip={t}/>
-            )}
-
+          {dataStatus === 'succeeded' && getTrips().map(t => <Card trip={t}/>)}
         </main>
       </div>
     </ThemeProvider>

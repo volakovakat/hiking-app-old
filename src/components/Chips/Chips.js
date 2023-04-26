@@ -20,7 +20,7 @@ export default function Chips({labels}) {
         {labels.map(l => <Chip
             key={l}
             variant= {l === filter ? "" : "outlined"}
-            color="success"
+            color="primary"
             label={`${l}`}
             onClick={() => handleClick(l)}
         />)}

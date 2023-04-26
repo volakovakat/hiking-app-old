@@ -4,26 +4,31 @@
   padding: 0;
 }
 
-.App, main, nav {
+.App, main, nav, .all-trips, .all-places, .show-all {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 10px;
-  row-gap: 15px;
   justify-content: center;
   align-items: center;
 }
 
-.App {
+.App, nav {
   flex-direction: column;
+}
+
+main {
+  column-gap: 10px;
+  row-gap: 15px;
+}
+
+.App {
   padding-bottom: 5rem;
 }
 
 nav {
+  gap: 0.8em;
   margin-bottom: 1rem;
-  display: flex;
-  flex-direction: column;
 }
 
-.c-app-header {
+header, .c-app-header {
   margin: 1rem 0;
 }
