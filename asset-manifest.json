@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hiking-app/static/css/main.4e18b5c6.css",
-    "main.js": "/hiking-app/static/js/main.e9e844f3.js",
+    "main.css": "/hiking-app/static/css/main.4403eb32.css",
+    "main.js": "/hiking-app/static/js/main.7f436b4f.js",
     "static/js/787.28cb0dcd.chunk.js": "/hiking-app/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/hiking-app/index.html",
-    "main.4e18b5c6.css.map": "/hiking-app/static/css/main.4e18b5c6.css.map",
-    "main.e9e844f3.js.map": "/hiking-app/static/js/main.e9e844f3.js.map",
+    "main.4403eb32.css.map": "/hiking-app/static/css/main.4403eb32.css.map",
+    "main.7f436b4f.js.map": "/hiking-app/static/js/main.7f436b4f.js.map",
     "787.28cb0dcd.chunk.js.map": "/hiking-app/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e18b5c6.css",
-    "static/js/main.e9e844f3.js"
+    "static/css/main.4403eb32.css",
+    "static/js/main.7f436b4f.js"
   ]
 }
