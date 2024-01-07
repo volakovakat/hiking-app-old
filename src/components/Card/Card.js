@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Chip from "@mui/material/Chip";
 import HikingDuration from "./HikingDuration";
-
+import InfoModal from "../Modal/InfoModal";
 
 const TripCard = ({trip: {ascent, descent, header, image, info, location, hikeTimeRange, carTimeRange, url, parking}}) => {
   return (
@@ -31,7 +31,8 @@ const TripCard = ({trip: {ascent, descent, header, image, info, location, hikeTi
         {/*</Typography>*/}
       </CardContent>
       <CardActions>
-        <Button size="small" href={info} target="_blank">Info</Button>
+        <InfoModal trip={{ascent: ascent, header: header, image: image, info: info, hikeTimeRange: hikeTimeRange, carTimeRange: carTimeRange}} />
+        {/*<Button size="small" href={info} target="_blank">Info</Button>*/}
         <Button size="small" href={url} target="_blank">Trasa</Button>
         <Button size="small" href={parking} target="_blank">Parking</Button>
       </CardActions>
