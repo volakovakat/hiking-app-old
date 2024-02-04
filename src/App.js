@@ -8,6 +8,8 @@ import Button from '@mui/material/Button';
 import {useEffect} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {fetchData} from "./reducers/dataSlice";
+import CalendarMonthOutlinedIcon from '@mui/icons-material/CalendarMonthOutlined';
+import IconButton from "@mui/material/IconButton";
 
 const darkTheme = createTheme({
   palette: {
@@ -100,12 +102,19 @@ const App = () => {
     return []
   }
 
+  const openCalendar = () => {}
+
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
       <div className="App">
         <header>
           <h1 className="c-app-header">Turistické trasy</h1>
+          <span className="ic-calendar">
+            <IconButton aria-label="calendar view">
+              <CalendarMonthOutlinedIcon />
+            </IconButton>
+          </span>
           <nav>
             <Chips labels={getLabels()} />
             <SubChips labels={getLocations()} />

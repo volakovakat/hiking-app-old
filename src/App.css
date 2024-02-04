@@ -32,3 +32,9 @@ nav {
 header, .c-app-header {
   margin: 1rem 0;
 }
+
+.ic-calendar {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+}
